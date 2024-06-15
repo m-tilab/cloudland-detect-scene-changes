@@ -1,0 +1,9 @@
+spring:
+  ai:
+    vertex:
+      ai:
+        gemini:
+          project-id: ${GCP_PROJECT_ID:persian-java-talk}
+          image-captions:
+            url: https://us-central1-aiplatform.googleapis.com/v1/projects/persian-java-talk/locations/us-central1/publishers/google/models/imagetext:predict
+
